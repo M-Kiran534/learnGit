@@ -7,8 +7,11 @@ git add .
 --> '.' refers to adding all the files 
 
 git commit -m "first commit"
+-m flag is used for custom messaging
 
 git branch -M main
 
 git remote add origin https://github.com/M-Kiran534/learnGit.git
+
 git push -u origin main
+-u flag is used to link the local repository with the remote repository
