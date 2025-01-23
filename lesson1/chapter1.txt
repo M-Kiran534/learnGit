@@ -13,5 +13,13 @@ git branch -M main
 
 git remote add origin https://github.com/M-Kiran534/learnGit.git
 
+Push: 
+(for 1st push)
 git push -u origin main
 -u flag is used to link the local repository with the remote repository
+
+(for later push)
+git push origin main
+
+pull: get data form remote repository
+git pull origin main
