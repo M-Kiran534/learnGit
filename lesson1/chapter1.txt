@@ -15,3 +15,9 @@ git remote add origin https://github.com/M-Kiran534/learnGit.git
 
 git push -u origin main
 -u flag is used to link the local repository with the remote repository
+
+git branch -r                     # Check remote branches
+
+git checkout -b main origin/main   # Restore your local 'main' from GitHub
+
+git pull origin main               # Ensure your local 'main' is up to date with GitHub
