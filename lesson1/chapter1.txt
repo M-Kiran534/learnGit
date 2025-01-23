@@ -21,10 +21,5 @@ git push -u origin main
 (for later push)
 git push origin main
 
-Branch Revoke: if branch is present in remote but not in local
-
-git branch -r                     # Check remote branches
-
-git checkout -b main origin/main   # Restore your local 'main' from GitHub
-
-git pull origin main               # Ensure your local 'main' is up to date with GitHub
+pull: get data form remote repository
+git pull origin main
